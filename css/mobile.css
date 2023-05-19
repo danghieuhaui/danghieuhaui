@@ -1,0 +1,61 @@
+@media only screen and (max-width: 768px) {
+  #nav-bar a {
+    display: block;
+    border-left: none;
+    padding: 10px 0 !important;
+    width: 100%;
+  }
+  #nav-bar a:nth-child(even) {
+    border-right: none;
+  }
+  #about {
+    background: linear-gradient(to bottom, #f1f3f5 50%, #dee2e6 50%);
+  }
+  #about #target,
+  #about #personal-info {
+    grid-column: 1/-1;
+  }
+  .grid-cell {
+    grid-column: 1/-1;
+    margin-top: 50px;
+  }
+  .border-col {
+    display: none;
+  }
+  #certificate .grid-cell {
+    border-bottom: 2px solid #ffec99;
+    margin-top: 0;
+    padding: 20px;
+  }
+  #certificate .grid-cell > img {
+    width: 100%;
+  }
+  .border-col {
+    display: none;
+  }
+  .experience {
+    grid-row: 1 /2;
+    grid-column: 1/-1;
+  }
+  .activate {
+    grid-row: 4 / 5;
+    grid-column: 1/-1;
+  }
+  .education {
+    grid-row: 5/6;
+    grid-column: 1/-1;
+  }
+
+  .interested {
+    grid-row: 6 / span 6;
+    grid-column: 1/-1;
+  }
+  .language {
+    grid-row: 3/4;
+    grid-column: 1/-1;
+  }
+  .skills {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+  }
+}
